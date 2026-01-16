@@ -1,0 +1,26 @@
+# Environment variables
+.env
+
+# Docker volumes
+**/data
+**/volumes
+**/grafana_data
+**/prometheus_data
+
+# Grafana
+grafana/plugins
+grafana/png
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
